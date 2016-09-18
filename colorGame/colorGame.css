@@ -1,7 +1,7 @@
 body {
-	background-color: #232323;
+	background-color: #1a1a1a;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Righteous', cursive;
 }
 
 .square {
@@ -46,6 +46,7 @@ h1 {
 }
 
 #stripe {
+	font-family: 'Righteous', cursive;
 	background: white;
 	height: 30px;
 	text-align: center;
