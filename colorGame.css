@@ -124,9 +124,10 @@ img {
 	max-width: 750px;
 }
 
-.trigger {
+#stripe2 > button {
     background-color: #55b558;
     border-radius: 2px;	
+    padding: 10px 10px;
 }
 .modal-content {
     position: absolute;
