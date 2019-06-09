@@ -83,6 +83,9 @@ a {
 a:hover {
 	color: steelblue;
 	background: white;
+	 box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+         color: #fff;
+         transform: translateY(-7px);
 }
 
 .selected {
@@ -114,6 +117,9 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
 }
 
 .modal {
