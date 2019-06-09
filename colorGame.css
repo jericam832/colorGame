@@ -7,6 +7,7 @@ body {
 	    background-repeat: repeat;
 	margin: 0;
 	font-family: 'Righteous', cursive;
+	
 }
 
 .square {
@@ -60,7 +61,7 @@ h1 {
 
 #stripe2 {
 	background: steelblue;
-	height: 30px;
+	height: 40px;
 	text-align: center;
 	color: white;
 	padding-top: 0.5%;
@@ -84,8 +85,11 @@ a:hover {
 }
 
 .selected {
-	background: steelblue;
+	background: black;
 	color: white;
+}
+.mode {
+      
 }
 
 button {
@@ -94,12 +98,15 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-size: inherit;
-	font-weight: 700;
-	//color: steelblue;
+	font-weight: 600;
+	color: steelblue;
+	border-radius: 4px;	
 	letter-spacing: 0.75px;
 	transition: all 0.3s;
+	 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 	-webkit-transition: all 0.3s; 
 	-moz-transition: all 0.3s; 
+	cursor: pointer;
 	outline: none;
 }
 
@@ -127,7 +134,7 @@ img {
 #stripe2 > button {
     background-color: #55b558;
 	color: white;
-    border-radius: 2px;	
+    border-radius: 4px;	
     padding: 10px 10px;
 }
 .modal-content {
