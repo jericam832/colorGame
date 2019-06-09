@@ -28,15 +28,15 @@ function setupModeButtons(){
 			if(this.textContent === "Easy"){
 				numSquares = 3;
 			}
-			if(this.textContent === "Medium"){
+			if(this.textContent === "Tough"){
 				numSquares = 6;
 			}
-			if(this.textContent === "Hard"){
+			if(this.textContent === "Tricky"){
 				numSquares = 9;
 			}
-			// if(this.textContent === "INSANE!"){
-			// 	numSquares = 15;
-			// } 
+			 if(this.textContent === "Impossible!"){
+			 	numSquares = 12;
+			} 
 			reset();
 		});
 	}
@@ -83,6 +83,7 @@ function reset(){
 		squares[i].style.background = colors[i];
 		} else {
 			squares[i].style.display = "none";
+			squares[i].style.boxShadow = "none";
 		}
 	}
 	//change background back
