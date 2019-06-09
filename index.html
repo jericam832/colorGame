@@ -4,6 +4,7 @@
 	<title>Color Guessing Game</title>
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
 
 <div id="stripe2">
 	Choose which square matches the RGB color given above.
-	<a href="http://www.webriti.com/wp-content/uploads/2012/01/rgb-color-wheel-lg.jpg">Hint</a>
+	<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Hint</button>
 </div>
 
 
@@ -38,12 +39,15 @@
 	<div class="square"></div>
 	<div class="square"></div>
 	<div class="square"></div>
-	<!--<div class="square"></div>
-	<div class="square"></div>
-	<div class="square"></div>
-	 <div class="square"></div>
-	<div class="square"></div>
-	<div class="square"></div> -->
+</div>
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <img src="color-wheel.jpg" width="200px;">
+      </div>
+    </div>
+  </div>
 </div>
 
 <script type="text/javascript" src= "colorGame.js"></script>
