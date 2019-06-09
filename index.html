@@ -4,7 +4,6 @@
 	<title>Color Guessing Game</title>
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
@@ -25,7 +24,7 @@
 
 <div id="stripe2">
 	Choose which square matches the RGB color given above.
-	<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Hint</button>
+	 <button class="trigger">Hint</button>
 </div>
 
 
@@ -40,14 +39,12 @@
 	<div class="square"></div>
 	<div class="square"></div>
 </div>
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <img src="color-wheel.jpg" width="200px;">
-      </div>
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-button">×</span>
+        <h1>This should help a bit.</h1>
+	 <img src="color-wheel.jpg" width="100%;">
     </div>
-  </div>
 </div>
 
 <script type="text/javascript" src= "colorGame.js"></script>
