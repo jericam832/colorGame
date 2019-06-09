@@ -110,7 +110,7 @@ button {
 button:hover {
 	color: white;
 	background: steelblue;
-	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	box-shadow: 0px 15px 20px rgba(119, 136, 145, 0.4);
 }
 
 .modal {
