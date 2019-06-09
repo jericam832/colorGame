@@ -1,5 +1,10 @@
 body {
-	background-color: #1a1a1a;
+	height: 100%;
+	    background-attachment: fixed;
+	    background-image: asset-url('gaming-pattern.png');
+	    background-position: center;
+	    background-size: auto;
+	    background-repeat: repeat;
 	margin: 0;
 	font-family: 'Righteous', cursive;
 }
