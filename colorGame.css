@@ -140,10 +140,10 @@ img {
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
-    background-color: transparent;
+    background-color: lightgray;
 }
 .close-button:hover {
-    background-color: light gray;
+    background-color: white;
 }
 .show-modal {
     opacity: 1;
