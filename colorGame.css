@@ -121,7 +121,7 @@ button:hover {
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 img {
-	max-width: 350px;
+	max-width: 750px;
 }
 .modal-content {
     position: absolute;
@@ -129,7 +129,6 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    opacity: 0.7;
     padding: 1rem 1.5rem;
     //width: 24rem;
     border-radius: 0.5rem;
@@ -141,10 +140,10 @@ img {
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
-    background-color: lightgray;
+    background-color: transparent;
 }
 .close-button:hover {
-    background-color: darkgray;
+    background-color: light gray;
 }
 .show-modal {
     opacity: 1;
