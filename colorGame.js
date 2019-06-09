@@ -62,7 +62,7 @@ function setupSquares(){
 			this.style.background = "none";
 			messageDisplay.style.color = "red";
 			messageDisplay.textContent = "Try Again!";
-			clickedColor.style.boxShadow = "none";
+			squares[i].style.boxShadow = "none";
 
 		}
 	});
