@@ -48,7 +48,7 @@ function setupSquares(){
 	squares[i].style.background = colors[i];
 	//add click listeners to squares
 	squares[i].addEventListener("click", function(){
-		//greb color of clicked square
+		//grab color of clicked square
 		var clickedColor = this.style.background;
 		//compare color to pickedColor
 		if(clickedColor === pickedColor){
@@ -57,10 +57,12 @@ function setupSquares(){
 			resetButton.textContent = "Play Again?";
 			changeColors(clickedColor);
 			h1.style.background = clickedColor;
+			
 		} else {
 			this.style.background = "none";
 			messageDisplay.style.color = "red";
 			messageDisplay.textContent = "Try Again!";
+			clickedColor.style.boxShadow = "none";
 
 		}
 	});
@@ -83,7 +85,7 @@ function reset(){
 		squares[i].style.background = colors[i];
 		} else {
 			squares[i].style.display = "none";
-			squares[i].style.boxShadow = "none";
+			
 		}
 	}
 	//change background back
