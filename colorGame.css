@@ -120,6 +120,9 @@ button:hover {
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
+img {
+	max-width: 350px;
+}
 .modal-content {
     position: absolute;
     top: 50%;
