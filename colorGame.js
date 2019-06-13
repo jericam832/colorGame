@@ -58,7 +58,7 @@ function setupSquares(){
 			resetButton.textContent = "Play Again?";
 			changeColors(clickedColor);
 			h1.style.background = clickedColor;
-			stripe2.style.background = clickedColor;
+			
 			
 		} else {
 			this.style.background = "none";
@@ -105,6 +105,7 @@ function changeColors(color){
 	for(var i = 0;  i < squares.length; i++){
 		//change each color to match given color
 		squares[i].style.background = color;
+		stripe2.style.background = color;
 	}
 }
 
