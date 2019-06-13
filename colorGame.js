@@ -1,10 +1,11 @@
-var numSquares = 6;
+var numSquares = 3;
 var colors = [];
 var pickedColor;
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
+var stripe2 = document.getElementById("#stripe2");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 
@@ -57,6 +58,7 @@ function setupSquares(){
 			resetButton.textContent = "Play Again?";
 			changeColors(clickedColor);
 			h1.style.background = clickedColor;
+			stripe2.style.background = clickedColor;
 			
 		} else {
 			this.style.background = "none";
