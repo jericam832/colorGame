@@ -105,8 +105,8 @@ function changeColors(color){
 	for(var i = 0;  i < squares.length; i++){
 		//change each color to match given color
 		squares[i].style.background = color;
-		stripe2.style.background = color;
 	}
+	
 }
 
 //pick random colors for the squares
